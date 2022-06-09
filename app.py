@@ -21,6 +21,7 @@ class App(tk.Tk):
 
         self.title('Unit Converter')
         self.geometry('300x150')
+        self.resizable(False, False)
         self.miles_textfield.place(x=120, y=25)
         self.miles_unit_label.place(x=205, y=25)
         self.is_equal_to_label.place(x=30, y=55)
